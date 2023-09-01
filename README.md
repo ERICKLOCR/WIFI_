@@ -1,20 +1,44 @@
 # AUTOSTART
 
-## Configuraciones iniciales 
-
-
-
+## 1 Configuraciones en la JETSON
 
 
 # ----
 
-1. Confifurar el host
+ Confifurar el host
    En la terminal ejecutar
 
 ```
 sudo gedit hosts
 ```
    Una vez despliega un archivo se configura de la manera siguiente. 
+
+```
+export ROS_MASTER_URI=http://192.168.43.178:11311
+export ROS_IP=192.168.43.178
+export ROS_HOSTNAME=192.168.43.178
+```
+
+## 2 Configuraciones en la Computadota 
+
+```
+sudo gedit hosts
+```
+   Una vez despliega un archivo se configura de la manera siguiente. 
+
+```
+export ROS_MASTER_URI=http://192.168.43.178:11311
+ export ROS_IP=192.168.43.192 
+ssh robotica@192.168.43.178
+```
+
+
+# ----
+
+ Confifurar el host
+   En la terminal ejecutar
+
+
    
 2. Copiar las carpetas o descargaslas desde
 
