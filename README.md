@@ -1,4 +1,4 @@
-# AUTOSTART
+# Configuración de SSH Computadora-Jetson
 
 ## 1 Configuraciones en la JETSON
 
