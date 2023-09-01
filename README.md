@@ -5,7 +5,7 @@
 
 # ----
 
- Confifurar el host
+ Configurar el host
    En la terminal ejecutar
 
 ```
