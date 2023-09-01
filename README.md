@@ -13,6 +13,9 @@ sudo gedit hosts
 ```
    Una vez despliega un archivo se configura de la manera siguiente. 
 
+export ROS_MASTER_URI=http://localhost:11311
+export ROS_IP=localhost
+export ROS_HOSTNAME=TurtlebootIP o TurtlebootHOSNAME
 ```
 export ROS_MASTER_URI=http://192.168.43.178:11311
 export ROS_IP=192.168.43.178
@@ -26,6 +29,9 @@ sudo gedit hosts
 ```
    Una vez despliega un archivo se configura de la manera siguiente. 
 
+export ROS_MASTER_URI=http://TurtlebootIP:11311
+ export ROS_IP=192.168.43.192 
+ssh robotica@hostNmae(ipconfig)
 ```
 export ROS_MASTER_URI=http://192.168.43.178:11311
  export ROS_IP=192.168.43.192 
@@ -35,7 +41,12 @@ ssh robotica@192.168.43.178
 
 # ----
 
- Confifurar el host
+
+
+
+
+
+ Configurar el host
    En la terminal ejecutar
 
 
