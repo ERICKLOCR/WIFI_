@@ -42,7 +42,26 @@ ssh robotica@192.168.43.178
 ```
 
 
-# ----
+
+## Prueba de funcionamiento
+
+
+*******************************
+Turtlebot Fisico
+-------------------------------
+*****
+
+roscore
+cd catkin_ws
+
+Ubicarse en la carpeta donde se tenga instalado el turtlebot
+```
+source ./devel/setup.bash
+roslaunch turtlebot_bringup minimal.launch --screen
+roslaunch turtlebot_teleop keyboard_teleop.launch
+
+```
+**************************************
 
 
 
@@ -71,22 +90,6 @@ ssh robotica@192.168.43.178
 ## Control del turtlebot2 desde la Jetson mediante cable
 
 
-*********************************************
-Turtlebot Fisico
--------------------------------
-*****
-
-roscore
-cd catkin_ws
-
-Ubicarse en la carpeta donde se tenga instalado el turtlebot
-```
-source ./devel/setup.bash
-roslaunch turtlebot_bringup minimal.launch --screen
-roslaunch turtlebot_teleop keyboard_teleop.launch
-
-```
-**************************************
 
 
 
