@@ -120,11 +120,6 @@ roslaunch rplidar_ros view_rplidar_a1.launch
 
 
 
-# Observaciones durante el proceso 
-
-Para conectar la pantalla a la Jetson(conectar sin conversores, Direccto a la HMI(1 cable) )
-
-
 
  --------------------
  en la jetson se debe de levantar el turtlebot 
