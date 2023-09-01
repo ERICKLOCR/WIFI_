@@ -3,7 +3,6 @@
 ## 1 Configuraciones en la JETSON
 
 
-# ----
 
  Configurar el host
    En la terminal ejecutar
