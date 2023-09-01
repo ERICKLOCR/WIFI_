@@ -1,4 +1,4 @@
-# Configuración de SSH Computadora-Jetson
+# Comunicación Computadora-Jetson mediante el protocolo SSH.
 
 ## 1 Configuraciones en la JETSON
 
